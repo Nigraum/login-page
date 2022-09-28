@@ -1,6 +1,7 @@
 :root {
   --background-main: #201b2c;
   --main-text: #77ffc0;
+  --card-login: #2f2841;
 }
 
 * {
@@ -46,4 +47,6 @@
   align-items: center;
   flex-direction: column;
   padding: 30px 35px;
+  background: var(--card-login);
+  border-radius: 20px;
 }
