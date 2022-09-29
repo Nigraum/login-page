@@ -123,5 +123,29 @@
 }
 
 @media only screen and (max-width: 600px) {
-  
+ .main-login {
+  flex-direction: column;
+ }
+
+ .left-login > h1 {
+  display: none;
+ }
+
+ .left-login {
+  width: 100%;
+  height: auto;
+ }
+
+ .right-login {
+  width: 100%;
+  height: auto;
+ }
+
+ .astronaut {
+  width: 50vw;
+ }
+
+ .card-login {
+  width: 90%;
+ }
 }
