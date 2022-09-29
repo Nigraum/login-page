@@ -103,3 +103,7 @@
   color: #2b134b;
   background: var(--text-login);
 }
+
+.btn-login:hover {
+  cursor: pointer;
+}
