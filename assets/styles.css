@@ -3,6 +3,8 @@
   --main-text: #77ffc0;
   --card-login: #2f2841;
   --text-login: #00ff88;
+  --input-background: #514869;
+  --input-text: #f0ffffde;
 }
 
 * {
@@ -64,4 +66,15 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+}
+
+.textfield > input {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background: var(--input-background);
+  color: var(--input-text);
+  font-size: 12pt;
+  box-shadow: 0px 10px 40px #00000056;
 }
