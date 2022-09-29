@@ -34,9 +34,12 @@
 
 .left-login > h1 {
   color: var(--main-text);
+  font-size: 3vw;
 }
 
-
+.astronaut {
+  width: 35vw;
+}
 
 .right-login {
   width: 50vw;
