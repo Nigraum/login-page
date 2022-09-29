@@ -110,10 +110,18 @@
   color: #2b134b;
   background: var(--text-login);
   box-shadow: 0px 10px 40px -12px #00ff8052;
+  transition: all .2s;
 }
 
 .btn-login:hover {
   cursor: pointer;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-login:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 @media only screen and (max-width: 950px) {
