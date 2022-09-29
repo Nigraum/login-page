@@ -102,6 +102,7 @@
   letter-spacing: 3px;
   color: #2b134b;
   background: var(--text-login);
+  box-shadow: 0px 10px 40px -12px #00ff8052;
 }
 
 .btn-login:hover {
