@@ -115,3 +115,13 @@
 .btn-login:hover {
   cursor: pointer;
 }
+
+@media only screen and (max-width: 950px) {
+  .card-login {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  
+}
